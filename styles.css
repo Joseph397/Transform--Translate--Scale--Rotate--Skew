@@ -1,0 +1,96 @@
+
+/* 
+transform :
+ */
+ section{
+     width:150px;
+     height:150px;
+    }
+
+p{
+   font-size: 13px;
+   font-weight: bold;
+   color: black;
+}
+ /* translate() */
+#translate{
+   border:3px solid black;
+   box-sizing: border-box;
+} 
+
+ .one{
+     background: red;
+     transform: translateX(300px);
+ }
+ .two{
+     background: green;
+     transform: translateY(30px);
+ }
+ .three{
+     background: blue;
+     transform: translate(200px, 10px);
+ }
+
+/* scale() */
+
+.scale{
+   border:3px solid black;
+   margin-top: 20px;
+}
+
+.four{
+   background: red;
+   transform: scaleX(0.3);
+}
+.five {
+   background: green;
+   transform: scaleY(.3);
+}
+.six{
+   background: blue;
+   transform: scale(.5, .5);
+}
+
+/* rotate() */
+
+.rotate{
+   border:3px solid black;
+}
+ 
+.seven{
+   background: red;
+    transform: rotateX(60deg) ;
+}
+.eight{
+   background: green;
+   transform:rotateZ(120deg);
+   
+}
+.nine{
+   background: blue;
+   transform: rotateY(200deg);
+} 
+
+/* skew() */
+
+ .skew{
+   border:3px solid black;
+ }   
+   
+ 
+ .ten{
+    background: red;
+    transform: skewX(40deg);
+ }
+ .eleven{
+    background: green;
+    transform: skewX(-50deg);
+ }
+ .twelve{
+    background: blue;
+    transform: skew(40deg, -20deg);
+ }
+
+ 10:06:36
+ 
+
